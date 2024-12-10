@@ -1,360 +1,406 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://kit.fontawesome.com/a576612222.css" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" >
+
     <link rel="stylesheet" href="css.css">
     <title>Silicon</title>
+    <script src="/index.js" defer></script>
 </head>
 <style>
     #section-left-title {
         font-size: 32px;
     }
 </style>
+
 <body>
-    <header>
-    <div class="container">
-        <a id="logo" href="index.html">
-            <img src= "images/logo.svg" alt="Silicon logotype">
-        </a>
-        <nav id="main-menu" class="navbar">
-            <a class="mav-link" href="#">Features</a>
-        </nav> 
-        <div class="right-controls">
-            <div id="darkmode-toggle-switch" class="btn-toggle-switch">
-                <span class="label">Dark mode</span>
-                <label for="darkmode-switch" class="toggle-switch">
-                    <input id="darkmode-switch" type="checkbox">
-                    <span class="slider round"></span>
-                </label>
-            </div>
-        <a id="auth-signin" href="#" class="btn-primary">
-            <i class="fa-thin fa-user-large"></i>
-            <span> Sign in / up</span>
-        </a>
-        <button class="btn-mobile">
-            <i class="fa-regular fa-bars"></i>
-        </button>
-    </header>
-        <main>
+    <div class="wrapper">
+        <header id="header">
+            <div class="container">
+                <a id="logo" href="index.html">
+                    <img src="images/logo.svg" alt="Silicon logotype">
+                </a>
+                <nav id="main-menu" class="navbar">
+                    <a class="nav-link active" href="#">Features</a>
+                    <a class="nav-link active" href="#">contact</a>
+                </nav>
+                <div class="right-controls">
+                    <div id="darkmode-toggle-switch" class="btn-toggle-switch">
+                        <span class="label">Dark mode</span>
+                        <label for="darkmode-switch" class="toggle-switch">
+                            <input id="darkmode-switch" type="checkbox">
+                            <span class="slider round"></span>
+                        </label>
+                    </div>
+                    <a id="auth-signin" href="#" class="btn-primary">
+                        <i class="fa-thin fa-user-large"></i>
+                        <span> Sign in / up</span>
+                    </a>
+                    <button class="btn-mobile">
+                        <i class="fa-regular fa-bars"></i>
+                    </button>
+        </header>
+
+        <main id="main">
             <section id="hero">
                 <div class="container-hero">
-                      <div class="headline">
-                <h1 class="headline-1">Manage All Your Money in One App</h1>
-                      
-                </div>
-                <div class="hero-content">
-                    <p>We offer you a new generation of the mobile banking.Save, spend & manage money in your pocket.</p>
-                    
-                    <div class="app-buttons">
-                        <a class= "btn-download" href="#"><img class="img-appstor" src="images/Link (2).svg" alt="appstore"></a>
-                        <a class= "btn-download" href="#"><img class="img-google" src="images/Link (3).svg" alt="googleplay"></a>
+                    <div class="headline">
+
+                        <h1 class="headline-1">Manage All Your <br>Money in One App</h1>
+
                     </div>
-                <a href="#" class="discover-more">
-                    <img class="img-discover" src="images/more.svg" alt="app">
-                </a>
+                    <div class="hero-content">
+                        <p>We offer you a new generation of the mobile banking.Save, spend & manage money in your
+                            pocket.</p>
+
+                        <div class="app-buttons">
+                            <a class="btn-download" href="#"><img class="img-appstor" src="images/Link (2).svg"
+                                    alt="appstore"></a>
+                            <a class="btn-download" href="#"><img class="img-google" src="images/Link (3).svg"
+                                    alt="googleplay"></a>
+                        </div>
+                        <a href="#" class="discover-more">
+                            <img class="img-discover" src="images/more.svg" alt="app">
+                        </a>
+                    </div>
+                    <div class="images">
+                        <img class="img-mobile" src="images/Group.svg" alt="mobile">
+                    </div>
                 </div>
-            <div class="images">
-                <img class="img-mobile" src="images/Group.svg" alt="mobile">
-            </div></div>
-                </div>
-            </div>
-            </section>
-     <section id="logos">
+    </div>
+    </div>
+    </section>
+
+    <section id="logos">
         <div class="logos-row">
             <img class="btn-logos" src="images/Logos.svg" alt="logos">
         </div>
         <div class="logo-tablet">
             <img class="logo-img" src="images/logo tablet.svg" alt="logos">
         </div>
-     </section>
-     <div class="app-features-content">
+    </section>
+
+    <div class="app-features-content">
         <div class="mockup">
-            <img class= "features-img" src="images/Features.svg" alt="Mobile Mockup">
+            <img class="features-img" src="images/Features.svg" alt="Mobile Mockup">
         </div>
         <div class="features">
             <h2>App Features</h2>
-            <p>Lorem ipsum dolor sit amet,consectetur adipiscing elit.Proin volutpat mollis egestas.<br>Nam luctus facilisis ultrices.Pellentesque volutpat ligula est. Mattis fermentum, at nec lacus.</p>
+            <p>Lorem ipsum dolor sit amet,consectetur adipiscing elit.Proin volutpat mollis egestas.<br>Nam luctus
+                facilisis ultrices.Pellentesque volutpat ligula est. Mattis fermentum, at nec lacus.</p>
             <div class="features-grid">
                 <div class="feature-item">
                     <img src="images/easy.svg" alt="Easy Payments Icon">
                     <div class="feature-text">
-                    <h3>Easy Payments</h3>
-                    <p>Id mollis consectetur congue egestas egestas suspendisse blandit justo.</p>
-                </div>
+                        <h3>Easy Payments</h3>
+                        <p>Id mollis consectetur congue egestas egestas suspendisse blandit justo.</p>
+                    </div>
                 </div>
                 <div class="feature-item">
                     <img src="images/data.svg" alt="Data Security Icon">
                     <div class="feature-text">
-                    <h3>Data Security</h3>
-                    <p>Augue pulvinar justo, fermentum fames aliquam accumsan vestibulum non.</p>
-                </div>
+                        <h3>Data Security</h3>
+                        <p>Augue pulvinar justo, fermentum fames aliquam accumsan vestibulum non.</p>
+                    </div>
                 </div>
                 <div class="feature-item">
                     <img src="images/cost.svg" alt="Cost Statistics Icon">
                     <div class="feature-text">
-                    <h3>Cost Statistics</h3>
-                    <p>Mattis urna ultricies non amet, purus in auctor non. Odio vulputate ac nibh.</p>
-                </div>
+                        <h3>Cost Statistics</h3>
+                        <p>Mattis urna ultricies non amet, purus in auctor non. Odio vulputate ac nibh.</p>
+                    </div>
                 </div>
                 <div class="feature-item">
                     <img src="images/support.svg" alt="Support 24/7 Icon">
                     <div class="feature-text">
-                    <h3>Support 24/7</h3>
-                    <p>A elementum, imperdiet enim, pretium etiam facilisi in aenean quam mauris.</p>
-                </div>
+                        <h3>Support 24/7</h3>
+                        <p>A elementum, imperdiet enim, pretium etiam facilisi in aenean quam mauris.</p>
+                    </div>
                 </div>
                 <div class="feature-item">
                     <img src="images/regular.svg" alt="Regular Cashback Icon">
                     <div class="feature-text">
-                    <h3>Regular Cashback</h3>
-                    <p>Sit facilisis dolor arcu, fermentum vestibulum arcu elementum imperdiet eleifend.</p>
-                </div>
+                        <h3>Regular Cashback</h3>
+                        <p>Sit facilisis dolor arcu, fermentum vestibulum arcu elementum imperdiet eleifend.</p>
+                    </div>
                 </div>
                 <div class="feature-item">
                     <img src="images/top.svg" alt="Top Standards Icon">
                     <div class="feature-text">
-                    <h3>Top Standards</h3>
-                    <p>Facilisis dolor arcu, vestibulum cursus arcu elementum imperdiet eleifend.</p>
-                </div>
+                        <h3>Top Standards</h3>
+                        <p>Facilisis dolor arcu, vestibulum cursus arcu elementum imperdiet eleifend.</p>
+                    </div>
                 </div>
             </div>
         </div>
     </div>
-</section>
-<section id="three">
-    <div class="container-three">
-          <div class="headline3">
-    <h1>How Does It Work?</h1>
-    </div>
-    <div class="three-content">
-        <div class="mobile-three">
-            <div class="image-container">
-                <img class="iphone-small" src="images/mobile-small.svg" alt="iphone4">
-                <img class="iphone-frame" src="images/iPhone 12 Pro (3).svg" alt="iphone4">
+    </section>
+    <section id="three">
+        <div class="container-three">
+            <div class="headline3">
+                <h1>How Does It Work?</h1>
             </div>
-            <div class="iphone-row">
-            <img class="iphone1" src="images/iPhone 12 Pro.svg" alt="iphone1">
-            <img class="iphone2" src="images/iPhone 12 Pro (1).svg" alt="iphone2">
-            <img class="iphone3" src="images/iPhone 12 Pro (2).svg" alt="iphone3">
-        </div>
-        <div></div>
-            <img class="iphone5" src="images/mobile-tablet.svg" alt="tablet">
-        </div>
-        <div class="three-item">
-            <div class="three-text0">
-                <h3>Latest transaction history</h3>
-                <p>Enim, et amet praesent pharetra. Mi non ante hendrerit amet sed. Arcu sociis tristique <br>quisque hac in consectetur condimentum.  </p>
-            </div>
-            <div class="three-text">
-            <h3>Transfers to people from <br>your contact list</h3>
-            <p>Proin volutpat mollis egestas. Nam luctus facilisis
-                ultrices. Pellentesque volutpat ligula est. Mattis
-                fermentum, at nec lacus. </p>
-                <div class="three-text1">
-               <h2> Step 3. Transfers to people from your<br> contact list</h2>
-               <p>Proin volutpat mollis egestas. Nam luctus facilisis ultrices.<br>
-                Pellentesque volutpat ligula est. Mattis fermentum, at nec
-                lacus.</p>
+            <div class="three-content">
+                <div class="mobile-three">
+                    <div class="image-container">
+                        <img class="iphone-small" src="images/mobile-small.svg" alt="iphone4">
+                        <img class="iphone-frame" src="images/iPhone 12 Pro (3).svg" alt="iphone4">
+                    </div>
+                    <div class="iphone-row">
+                        <img class="iphone1" src="images/iPhone 12 Pro.svg" alt="iphone1">
+                        <img class="iphone2" src="images/iPhone 12 Pro (1).svg" alt="iphone2">
+                        <img class="iphone3" src="images/iPhone 12 Pro (2).svg" alt="iphone3">
+                    </div>
+                    <div></div>
+                    <img class="iphone5" src="images/mobile-tablet.svg" alt="tablet">
+                </div>
+                <div class="three-item">
+                    <div class="three-text0">
+                        <h3>Latest transaction history</h3>
+                        <p>Enim, et amet praesent pharetra. Mi non ante hendrerit amet sed. Arcu sociis tristique
+                            <br>quisque hac in consectetur condimentum.
+                        </p>
+                    </div>
+                    <div class="three-text">
+                        <h3>Transfers to people from <br>your contact list</h3>
+                        <p>Proin volutpat mollis egestas. Nam luctus facilisis
+                            ultrices. Pellentesque volutpat ligula est. Mattis
+                            fermentum, at nec lacus. </p>
+                        <div class="three-text1">
+                            <h2> Step 3. Transfers to people from your<br> contact list</h2>
+                            <p>Proin volutpat mollis egestas. Nam luctus facilisis ultrices.<br>
+                                Pellentesque volutpat ligula est. Mattis fermentum, at nec
+                                lacus.</p>
+                        </div>
+                    </div>
                 </div>
             </div>
-            </div>
-        </div>
-        </section>
-        <section id="money">
-            <div class="container-money">
-                  <div class="headline-money">
-                    <h2 id="section-left-title">Make your money <br>transfer simple and clear</h2>
-                    <div class="icon-text-pair">
+    </section>
+    <section id="money">
+        <div class="container-money">
+            <div class="headline-money">
+                <h2 id="section-left-title">Make your money <br>transfer simple and clear</h2>
+                <div class="icon-text-pair">
                     <img class="icon" src="images/bx-check-circle.svg" alt="">
-                        <p>Banking transactions are free for you</p>
-                    </div>
-                        <div class="icon-text-pair">
-                        <img class="icon" src="images/bx-check-circle.svg" alt="">
-                        <p>No monthly cash commission</p>
-                    </div>
-                        <div class="icon-text-pair">
-                        <img class="icon" src="images/bx-check-circle.svg" alt="">
-                        <p>Manage payments and transactions online</p>
-                    </div>
-                    <a href="#" class="learn-more">
-                        <img class="learnmore1" src="images/learnmore.svg" alt="Learn More1">
-                    </a>
-                    <div class="contacts">
-                        <img class="card-image" src="images/money2.svg" alt="Card" >
-                    </div>
+                    <p>Banking transactions are free for you</p>
                 </div>
-                <div class="section-right">
-                    <img class="contacts-image" src="images/money1.svg" alt="Contacts" >
-                    <h2 id="section-right-title">Receive payment from <br>international bank details</h2>
-                    <div class="chart">
-                        <img class="easy" src="images/easy.svg" alt="chart image">
-                        <img class="regular" src="images/regular.svg" alt="chart image2">
-                    </div>
-                    <div class="column-container">
+                <div class="icon-text-pair">
+                    <img class="icon" src="images/bx-check-circle.svg" alt="">
+                    <p>No monthly cash commission</p>
+                </div>
+                <div class="icon-text-pair">
+                    <img class="icon" src="images/bx-check-circle.svg" alt="">
+                    <p>Manage payments and transactions online</p>
+                </div>
+                <a href="#" class="learn-more">
+                    <img class="learnmore1" src="images/learnmore.svg" alt="Learn More1">
+                </a>
+                <div class="contacts">
+                    <img class="card-image" src="images/money2.svg" alt="Card">
+                </div>
+            </div>
+            <div class="section-right">
+                <img class="contacts-image" src="images/money1.svg" alt="Contacts">
+                <h2 id="section-right-title">Receive payment from <br>international bank details</h2>
+                <div class="chart">
+                    <img class="easy" src="images/easy.svg" alt="chart image">
+                    <img class="regular" src="images/regular.svg" alt="chart image2">
+                </div>
+                <div class="column-container">
                     <p>Manage your payments online.<br> Mollis congue egestas egestas <br> fames.</p>
                     <p>A elementum at imperdiet enim <br>pretium etiam facilisi aenean<br> quam mauris.</p>
-                    </div>
-                    <a href="#" class="learn-more2">
-                        <img class="learnmore2" src="images/learnmore.svg" alt="Learn More2">
-                    </a>
                 </div>
+                <a href="#" class="learn-more2">
+                    <img class="learnmore2" src="images/learnmore.svg" alt="Learn More2">
+                </a>
             </div>
         </div>
-    </div></div></div></div></div>
-        </section>
-    
-        
-        <section id="client">
-            <div class="container-client">
-              <div class="headline-client">
-                <h2 id="client-title">Clients are <br>Loving Our App</h2>
-              </div>
-          
-              <!-- Column 1 -->
-              <div class="client-column">
-                <div class="testimonial">
-                  <img class="client" src="images/icon.svg" alt="Client Icon">
-          
-                  <div class="star-rating">
-                    <i class="fa-sharp fa-solid fa-star"></i>
-                    <i class="fa-sharp fa-solid fa-star"></i>
-                    <i class="fa-sharp fa-solid fa-star"></i>
-                    <i class="fa-sharp fa-solid fa-star"></i>
-                    <i class="fa-sharp fa-regular fa-star"></i>
-                  </div>
-          
-                  <p>
-                    Nunc senectus leo vel venenatis accumsan vestibulum sollicitudin amet porttitor.
-                    Nisl bibendum nulla tincidunt eu enim ornare dictumst sit amet.
-                    Dictum pretium dolor tincidunt egestas eget nunc.
-                  </p>
-          
-                  <div class="testimonial-author">
-                    <img class="profile" src="images/woman.svg" alt="Author Profile Image">
-                    <div class="author">
-                      <h6 class="name">Fannie Summers</h6>
-                      <p class="role">Designer</p>
-                    </div>
-                  </div>
-                </div>
-              </div>
-          
-              <!-- Column 2 -->
-              <div class="client-column">
-                <div class="testimonial">
-                  
-                  <img class="client" src="images/icon.svg" alt="Client Icon">
-          
-                  <div class="star-rating">
-                    <i class="fa-sharp fa-solid fa-star"></i>
-                    <i class="fa-sharp fa-solid fa-star"></i>
-                    <i class="fa-sharp fa-solid fa-star"></i>
-                    <i class="fa-sharp fa-solid fa-star"></i>
-                    <i class="fa-sharp fa-solid fa-star"></i>
-                  </div>
-          
-                  <p>
-                    Nunc senectus leo vel venenatis accumsan vestibulum sollicitudin amet porttitor.
-                    Nisl bibendum nulla tincidunt eu enim ornare dictumst sit amet.
-                    Dictum pretium dolor tincidunt egestas eget nunc.
-                  </p>
-          
-                  <div class="testimonial-author">
-                    <img class="profile" src="images/man.svg" alt="Author Profile Image">
-                    <div class="author">
-                      <h6 class="name">Albert Flores</h6>
-                      <p class="role">Developer</p>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </section>
-
-        <section id="question">
-            <div class="container-question">
-                <div class="left-column">
-                <div class="headline-question">
-                    <h2 id="question-title">Any questions? <br>Check out the FAQs</h2>
-                    <p> Still have unanswered questions and need to get in touch?</p>
-                </div>
-
-                <div class="contact-row">
-                <div class="contact-column">
-                    <p class="column-contact" ><img class="contact1" src="images/icon (1).svg" alt=""><br>Still have  questions?<br><img class="contact-us" src="images/btn (1).svg" alt=""></p>
-                </div>
-                <div class="contact-column1">
-                    <p class="column-contact1" ><img class="contact2" src="images/icon (2).svg" alt=""><br>Don't like phone calls?<br><img class="contact-us1" src="images/btn (2).svg" alt=""></p>
-                </div>
-                </div>
-                </div>
-        
-            <!-- FAQ Section -->
-            <div class="right-column">
-                <div class="faq-item">
-                    <span>Is any of my personal information stored in the App?</span>
-                    <img src="images/arrow.svg" alt="Arrow Icon">
-                </div>
-                <div class="faq-item">
-                    <span>What formats can I download my transaction history in?</span>
-                    <img src="images/arrow.svg" alt="Arrow Icon">
-                </div>
-                <div class="faq-item">
-                    <span>Can I schedule future transfers?</span>
-                     
-                    <img src="images/arrow.svg" alt="Arrow Icon">
-                </div>
-                <div class="faq-item">
-                    <span>When can I use Banking App services?</span>
-                    <img src="images/arrow.svg" alt="Arrow Icon">
-                </div>
-                <div class="faq-item">
-                    <span>Can I create my own password that is easy for me to remember?</span>
-                    <img src="images/arrow.svg" alt="Arrow Icon">
-                </div>
-                <div class="faq-item">
-                    <span>What happens if I forget or lose my password?</span>
-                    <img src="images/arrow.svg" alt="Arrow Icon">
-                </div>
-                <div class="btn-contact">
-                    <img class="btn-contact1" src="images/Contact Us.svg" alt="">
-                </div></div>
-            </div></div>
+        </div>
+        </div>
+        </div>
+        </div>
+        </div>
         </div>
     </section>
-       
-       
-        <section id="input">
-            <div class="container-subscribe">
-                <div class="headline-subscribe">
-                    <img class="bells" src="images/bells.svg" alt="">
-                    <h4> Subscribe to our newsletter to stay informed about latest updates</h4>
-                    <p>Subscribe to our
-                        newsletter </p>
-         
+
+    <section id="client">
+        <div class="container-client">
+            <div class="headline-client">
+                <h2 id="client-title">Clients are <br>Loving Our App</h2>
+            </div>
+
+            <!-- Column 1 -->
+            <div class="client-column">
+                <div class="testimonial">
+                    <img class="client" src="images/icon.svg" alt="Client Icon">
+
+                    <div class="star-rating">
+                        <i class="fa-sharp fa-solid fa-star"></i>
+                        <i class="fa-sharp fa-solid fa-star"></i>
+                        <i class="fa-sharp fa-solid fa-star"></i>
+                        <i class="fa-sharp fa-solid fa-star"></i>
+                        <i class="fa-sharp fa-regular fa-star"></i>
+                    </div>
+
+                    <p>
+                        Nunc senectus leo vel venenatis accumsan vestibulum sollicitudin amet porttitor.
+                        Nisl bibendum nulla tincidunt eu enim ornare dictumst sit amet.
+                        Dictum pretium dolor tincidunt egestas eget nunc.
+                    </p>
+
+                    <div class="testimonial-author">
+                        <img class="profile" src="images/woman.svg" alt="Author Profile Image">
+                        <div class="author">
+                            <h6 class="name">Fannie Summers</h6>
+                            <p class="role">Designer</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Column 2 -->
+            <div class="client-column">
+                <div class="testimonial">
+
+                    <img class="client" src="images/icon.svg" alt="Client Icon">
+
+                    <div class="star-rating">
+                        <i class="fa-sharp fa-solid fa-star"></i>
+                        <i class="fa-sharp fa-solid fa-star"></i>
+                        <i class="fa-sharp fa-solid fa-star"></i>
+                        <i class="fa-sharp fa-solid fa-star"></i>
+                        <i class="fa-sharp fa-solid fa-star"></i>
+                    </div>
+
+                    <p>
+                        Nunc senectus leo vel venenatis accumsan vestibulum sollicitudin amet porttitor.
+                        Nisl bibendum nulla tincidunt eu enim ornare dictumst sit amet.
+                        Dictum pretium dolor tincidunt egestas eget nunc.
+                    </p>
+
+                    <div class="testimonial-author">
+                        <img class="profile" src="images/man.svg" alt="Author Profile Image">
+                        <div class="author">
+                            <h6 class="name">Albert Flores</h6>
+                            <p class="role">Developer</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    </section>
+
+    <section id="question">
+        <div class="container-question">
+            <div class="left-column">
+            <div class="headline-question">
+                <h2 id="question-title">Any questions? <br>Check out the FAQs</h2>
+                <p> Still have unanswered questions and need to get in touch?</p>
+            </div>
+
+            <div class="contact-row">
+            <div class="contact-column">
+                <p class="column-contact" ><img class="contact1" src="images/icon (1).svg" alt=""><br>Still have  questions?<br><img class="contact-us" src="images/btn (1).svg" alt=""></p>
+            </div>
+            <div class="contact-column1">
+                <p class="column-contact1" ><img class="contact2" src="images/icon (2).svg" alt=""><br>Don't like phone calls?<br><img class="contact-us1" src="images/btn (2).svg" alt=""></p>
+            </div>
+            </div>
+            </div>
+    
+        <!-- FAQ Section -->
+        <div id="FAQ">
+        <div class="right-column">
+            <div class="faq-item">
+                <span>Is any of my personal information stored in the App?</span>
+                <img src="images/arrow.svg" alt="Arrow Icon">
+            </div>
+            <p class="item-content">
+                jicncckmeugsdhhsdksdhghdjdkcmnvnznvbvib
+            </p>
+            <div class="faq-item">
+                <span>What formats can I download my transaction history in?</span>
+                <img src="images/arrow.svg" alt="Arrow Icon">
+            </div>
+            <p class="item-content">
+                jicncckmeugsdhhsdksdhghdjdkcmnvnznvbvib
+            </p>
+            <div class="faq-item">
+                <span>Can I schedule future transfers?</span>
+                 
+                <img src="images/arrow.svg" alt="Arrow Icon">
+            </div>
+            <p class="item-content">
+                jicncckmeugsdhhsdksdhghdjdkcmnvnznvbvib
+            </p>
+            <div class="faq-item">
+                <span>When can I use Banking App services?</span>
+                <img src="images/arrow.svg" alt="Arrow Icon">
+            </div>
+            <p class="item-content">
+                jicncckmeugsdhhsdksdhghdjdkcmnvnznvbvib
+            </p>
+            <div class="faq-item">
+                <span>Can I create my own password that is easy for me to remember?</span>
+                <img src="images/arrow.svg" alt="Arrow Icon">
+            </div>
+            <p class="item-content">
+                jicncckmeugsdhhsdksdhghdjdkcmnvnznvbvib
+            </p>
+            <div class="faq-item">
+                <span>What happens if I forget or lose my password?</span>
+                <img src="images/arrow.svg" alt="Arrow Icon">
+            </div>
+            <p class="item-content">
+                jicncckmeugsdhhsdksdhghdjdkcmnvnznvbvib
+            </p>
+            <div class="btn-contact">
+                <img class="btn-contact1" src="images/Contact Us.svg" alt="">
+            </div></div>
+        </div></div>
+    </div>
+</section>
+   
+
+
+    <section id="input">
+        <div class="container-subscribe">
+            <div class="headline-subscribe">
+                <img class="bells" src="images/bells.svg" alt="">
+                <h4> Subscribe to our newsletter to stay informed about latest updates</h4>
+                <p>Subscribe to our
+                    newsletter </p>
+
                 <div class="email">
                     <input type="email" placeholder=" your email">
                     <img class="subscribe" src="images/subscrib.svg" alt="">
                 </div>
-                </div></div>
-                </div>
             </div>
-        </section>
-        <footer>
-            <div class="footer">
-                <img class="text" src="images/text.svg" alt="">
-           
+        </div>
+        </div>
+        </div>
+    </section>
+    <footer>
+        <div class="footer">
+            <img class="text" src="images/text.svg" alt="">
+
             <img class="text1" src="images/text (1).svg" alt="">
         </div>
-            </footer>
-        </footer>
-        </section>
-        </main>
-         
+    </footer>
+    </footer>
+    </section>
     </main>
 
-</div>
+    </main>
+
+    </div>
+
 </body>
+
 </html>
